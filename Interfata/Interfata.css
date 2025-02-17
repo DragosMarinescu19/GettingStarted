@@ -1,0 +1,39 @@
+:root {
+  --dark-red: #8b0000; /* Exemplu de culoare roșu închis */
+}
+
+ul {
+  list-style: none;
+  margin: none;
+  padding: none;
+  overflow: hidden;
+  background-color: black;
+}
+html {
+  background-color: black;
+}
+
+li {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  display: block;
+  text-align: left;
+  padding: 12px 0px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--dark-red);
+  transition: 500ms ease;
+}
+
+.link {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  display: block;
+  font-size: xx-large;
+  padding: 5px 5px 5px 5px;
+  position: relative;
+  text-decoration: none;
+}
